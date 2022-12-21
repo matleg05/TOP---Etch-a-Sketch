@@ -10,7 +10,7 @@
 #gridOverall {
     top: 0;
     left: 0;
-    border: 1px solid black;
+    border: 0.01em solid black;
     width: auto;
     height: auto;
     margin: 50px;
@@ -26,6 +26,6 @@
 
 .cell {
     border: 1px solid black;
-    margin: 0px;
+    margin: 0;
     padding: 15px;
 }
