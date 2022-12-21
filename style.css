@@ -1,18 +1,31 @@
 /* black border around the webpage and new background color */
 
 #webPage {
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+#gridOverall {
     top: 0;
     left: 0;
-    border: 2px solid black;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    margin: 50px;
+    padding: 0px;
     box-sizing: border-box;
-    background-color: aliceblue;
+    background-color: white;
+
 }
 
 #gridContainer {
     display: flex;
+}
+
+.cell {
+    border: 1px solid black;
+    margin: 0px;
+    padding: 15px;
 }
