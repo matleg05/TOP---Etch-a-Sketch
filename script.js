@@ -11,8 +11,11 @@ function makeGrid(rows, columns) {
             let column = document.createElement("div");
             column.classList.add("column");
             row.appendChild(column);
+            column.addEventListener("mouseover", e => 
+            e.target.classList.add("myColor"))
         }
     }
 }
 
 makeGrid(16, 16);
+
