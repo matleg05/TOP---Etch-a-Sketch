@@ -7,31 +7,22 @@
     background-color: aliceblue;
 }
 
-#gridOverall {
-    top: 0;
-    left: 0;
-    border: 0.01em solid black;
-    width: auto;
-    height: auto;
-    margin: 50px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-color: white;
-
-}
-
 #gridContainer {
     display: flex;
+    flex-direction: column;
+    margin: 100px;
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    border: 1px solid aliceblue;
 }
 
-.cell {
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    flex: 1;
     border: 1px solid black;
-    margin: 0;
-    padding: 15px;
-    transition: 0s 3600s;
-}
-
-.cell:hover {
-    background-color: black;
-    transition: 0s;
 }
