@@ -24,6 +24,5 @@ Skills used:
 - User can choose a custom number of rows and columns
 - The numbers are set between 1 and 99 to avoid lags and freezes
 - The grid remains in a 800px x 800px container at all times
- 5. (Optional) Change the colours of the grid
 
- 6. Push the project to github
+ 5. Push the project to github
