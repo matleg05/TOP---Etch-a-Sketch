@@ -1,32 +1,58 @@
-/* black border around the webpage and new background color */
-
 #webPage {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: aliceblue;
 }
-
 #gridContainer {
     display: flex;
     flex-direction: column;
-    margin: 100px;
+    margin: 50px;
     background-color: white;
     width: 800px;
     height: 800px;
     border: 1px solid aliceblue;
 }
 
+#topMenu {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+#form {
+    font-size: 25px;
+    margin: 20px;
+}
+
+#newGridButton {
+    font-size: 25px;
+    font-weight: 700;
+    border-color: white;
+    border-style: groove;
+    color: aliceblue;
+    background-color: darkblue;
+    margin: 20px;
+}
+
+#newGridButton:active {
+    background-color: blue; 
+}
+
 .row {
     display: flex;
     flex: 1;
 }
-
 .column {
     flex: 1;
     border: 1px solid black;
 }
-
 .myColor {
     background-color: black;
 }
