@@ -3,9 +3,9 @@
 This is the second project completed through The Odin Project.
 
 Skills used:
-       - HTML
-       - CSS
-       - Javascript
+- HTML
+- CSS
+- Javascript
 
  Steps for project completion:
 
